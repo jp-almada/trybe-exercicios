@@ -1,1 +1,0 @@
-Aprenda como mudar tudo, sem mudar nada
