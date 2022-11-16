@@ -1,0 +1,5 @@
+  491  ran
+  492  clear
+  493  rand
+  494  whatis rand
+  495  history | tail -5 > historico.txt

@@ -1,0 +1,11 @@
+azul
+amarelo
+vermelho
+cinza
+preto
+roxo
+dourado
+morango
+melancia
+inga
+goiaba

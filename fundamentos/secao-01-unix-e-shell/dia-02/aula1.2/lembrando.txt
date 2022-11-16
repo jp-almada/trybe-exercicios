@@ -1,0 +1,6 @@
+r = read (quem pode ler)
+w = write (quem pode escrever)
+x = execute (permite executar um arquivo pelo cd)
+- = arquivo comum
+d = indica um diretorio
+Vale lembrar também a importância de utilizar funções mescladas com o nosso querido | (pipe)
