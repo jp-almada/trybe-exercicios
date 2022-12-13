@@ -22,6 +22,7 @@ body {
     background-size: cover;
     height: 10vh;
     margin-top: 2vh;
+    border-radius: 2vh 2vh 0vh 0vh;
 }
 
 #p1 {
