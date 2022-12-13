@@ -1,0 +1,153 @@
+body {
+    text-align: center;
+    background-image: url(https://images7.alphacoders.com/519/519876.jpg);
+    background-size: cover;
+}
+
+.race {
+    text-align: left;
+    margin-top: 0vh;
+}
+
+.track {
+    background-image: url(https://img.freepik.com/premium-photo/rough-asphalt-road-textured_42414-618.jpg?w=2000);
+    background-size: cover;
+    width: 99vh;
+    height: 97vh;
+    border-radius: 2vh;
+}
+
+#finish {
+    background-image: url(https://t4.ftcdn.net/jpg/03/70/53/91/360_F_370539127_zcUHQTNUaGbyEMeaexk5UiuPT0NLgjeW.jpg);
+    background-size: cover;
+    height: 10vh;
+    margin-top: 2vh;
+}
+
+#p1 {
+    border-style: dashed;
+    border-color: white;
+    background-color: red;
+    border-radius: 1vh;
+    padding: 3px;
+    position: absolute;
+    left: 10vh;
+    top: 91vh;
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 0;
+}
+
+#dk {
+    position: absolute;
+    margin-top: 0;
+    top: 75vh;
+    height: 25vh;
+    width: 25vh;
+}
+
+#mario {
+    position: absolute;
+    margin-top: 0;
+    top: 75vh;
+    height: 25vh;
+    width: 25vh;
+    left: 27vh;
+}
+
+#toad {
+    position: absolute;
+    margin-top: 0;
+    top: 75vh;
+    height: 25vh;
+    width: 25vh;
+    left: 50vh;
+}
+
+#yoshi {
+    position: absolute;
+    margin-top: 0;
+    top: 75vh;
+    height: 25vh;
+    width: 25vh;
+    left: 75vh;
+}
+
+#board {
+    position: absolute;
+    background-color: whitesmoke;
+    opacity: 80%;
+    width: 80vh;
+    height: 97vh;
+    border-radius: 2vh;
+    display: inline-block;
+    text-align: right;
+    right: 7vh;
+    top: 2vh;
+    text-align: center;
+}
+
+#mk9 {
+    position: absolute;
+    top: 5vh;
+    right: 21vh;
+    width: 50vh;
+    height: 20vh;
+}
+
+#play {
+    position: absolute;
+    top: 25vh;
+    right: 21vh;
+    width: 50vh;
+    height: 20vh;
+    opacity: 85%;
+}
+
+#box {
+    background-color: rgba(128, 128, 128, 0.500);
+    border: 5px;
+    border-color: green;
+    position: absolute;
+    top: 40vh;
+    right: 8vh;
+    border-radius: 1vh;
+    width: 78vh;
+    height: 58vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.chacter-select {
+    display: flex;
+    width: 25vh;
+    height: 25vh;
+    background-color: rgba(245, 245, 245, 0.500);
+    border-radius: 1vh;
+}
+
+#button {
+    font-size: 5vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    background-color: rgba(55, 55, 55, 0.7);
+    border-style: double;
+    border-width: 1vh;
+    border-color: black;
+    border-radius: 100%;
+    width: 15vh;
+    height: 15vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    right: 280px;
+    top: 444px;
+}
