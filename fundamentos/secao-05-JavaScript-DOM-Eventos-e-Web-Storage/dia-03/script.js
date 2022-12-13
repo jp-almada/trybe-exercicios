@@ -11,49 +11,6 @@ window.onload = () => {
     car3.style.marginTop = 0;
     car4.style.marginTop = 0;
 
-
-    button.addEventListener("click", () => {
-        car1.style.marginTop = parseInt(car1.style.marginTop) - (Math.random() * 100) + 'px';
-        car2.style.marginTop = parseInt(car2.style.marginTop) - (Math.random() * 100) + 'px';
-        car3.style.marginTop = parseInt(car3.style.marginTop) - (Math.random() * 100) + 'px';
-        car4.style.marginTop = parseInt(car4.style.marginTop) - (Math.random() * 100) + 'px';
-
-        let winner = -480
-
-        let car1Win = parseInt(car1.style.marginTop) < winner;
-        let car2Win = parseInt(car2.style.marginTop) < winner;
-        let car3Win = parseInt(car3.style.marginTop) < winner;
-        let car4Win = parseInt(car4.style.marginTop) < winner;
-
-        let allCars = [parseInt(car1.style.marginTop), parseInt(car2.style.marginTop), parseInt(car3.style.marginTop), parseInt(car4.style.marginTop)]
-        
-        let topCar = Math.min(...allCars);
-
-        let car1WinTop = topCar == parseInt(car1.style.marginTop);
-        let car2WinTop = topCar == parseInt(car2.style.marginTop);
-        let car3WinTop = topCar == parseInt(car3.style.marginTop);
-        let car4WinTop = topCar == parseInt(car4.style.marginTop);
-
-        if ((car1Win) && (car1WinTop)) {
-            alert("DK WINNER!!!");
-            location.reload(true);
-        }
-        if ((car2Win) && (car2WinTop)) {
-            alert("Mario WINNER!!!");
-            location.reload(true);
-        }
-        if ((car3Win) && (car3WinTop)) {
-            alert("Toad WINNER!!!");
-            location.reload(true);
-        }
-        if ((car4Win) && (car4WinTop)) {
-            alert("Yoshi WINNER!!!");
-            location.reload(true);
-        }
-
-
-    });
-
     let player = document.querySelector("#p1");
 
     let dk = document.querySelector("#dk-select");
@@ -97,4 +54,50 @@ window.onload = () => {
         player.style.left = '85vh'
     }));
 
+    button.addEventListener("click", () => {
+
+        if (player.style.opacity <= '0%') {
+            alert("Choose your player first")
+        } else {
+
+            car1.style.marginTop = parseInt(car1.style.marginTop) - (Math.random() * 100) + 'px';
+            car2.style.marginTop = parseInt(car2.style.marginTop) - (Math.random() * 100) + 'px';
+            car3.style.marginTop = parseInt(car3.style.marginTop) - (Math.random() * 100) + 'px';
+            car4.style.marginTop = parseInt(car4.style.marginTop) - (Math.random() * 100) + 'px';
+
+            let winner = -480
+
+            let car1Win = parseInt(car1.style.marginTop) < winner;
+            let car2Win = parseInt(car2.style.marginTop) < winner;
+            let car3Win = parseInt(car3.style.marginTop) < winner;
+            let car4Win = parseInt(car4.style.marginTop) < winner;
+
+            let allCars = [parseInt(car1.style.marginTop), parseInt(car2.style.marginTop), parseInt(car3.style.marginTop), parseInt(car4.style.marginTop)]
+
+            let topCar = Math.min(...allCars);
+
+            let car1WinTop = topCar == parseInt(car1.style.marginTop);
+            let car2WinTop = topCar == parseInt(car2.style.marginTop);
+            let car3WinTop = topCar == parseInt(car3.style.marginTop);
+            let car4WinTop = topCar == parseInt(car4.style.marginTop);
+
+            if ((car1Win) && (car1WinTop)) {
+                alert("DK WINNER!!!");
+                location.reload(true);
+            }
+            if ((car2Win) && (car2WinTop)) {
+                alert("Mario WINNER!!!");
+                location.reload(true);
+            }
+            if ((car3Win) && (car3WinTop)) {
+                alert("Toad WINNER!!!");
+                location.reload(true);
+            }
+            if ((car4Win) && (car4WinTop)) {
+                alert("Yoshi WINNER!!!");
+                location.reload(true);
+            }
+
+        }
+    });
 }
