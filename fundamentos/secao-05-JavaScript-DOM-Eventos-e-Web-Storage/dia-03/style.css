@@ -152,3 +152,65 @@ body {
     right: 280px;
     top: 444px;
 }
+
+#button:hover {
+    color: black;
+    background-color: gray;
+    border-color: white;
+}
+
+.chacter-select:hover {
+    background-color: rgba(245, 245, 245);
+}
+
+#lakitu {
+    position: absolute;
+    top: 2vh;
+    right: 50%;
+    left: 49.5%;
+    display: flex;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 1vh;
+}
+
+#lakitu:hover {
+    position: absolute;
+    top: 22vh;
+    right: 50%;
+    left: 49.5%;
+    display: flex;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 1vh;
+}
+
+#dk:hover {
+    background-image: url(https://media.baamboozle.com/uploads/images/382670/1653562774_87282_gif-url.gif);
+    background-size: 75px;
+    background-position: center;
+    border-radius: 5vh;
+}
+
+#mario:hover {
+    background-image: url(https://thumbs.gfycat.com/GiftedWateryCony-max-1mb.gif);
+    background-size: 75px;
+    background-position: center;
+    border-radius: 5vh;
+}
+
+#toad:hover {
+    background-image: url(https://images.template.net/76044/5-1.gif);
+    background-size: 75px;
+    background-position: center;
+    border-radius: 5vh;
+}
+
+#yoshi:hover {
+    background-image: url(https://files.gamebanana.com/img/ico/sprays/supermarioworld2yoshisisla.gif);
+    background-size: 75px;
+    background-position: center;
+    border-radius: 5vh;
+}
+
+
