@@ -57,7 +57,7 @@ window.onload = () => {
     button.addEventListener("click", () => {
 
         if (player.style.opacity <= '0%') {
-            alert("Choose your player first")
+            alert("Choose your player first 🏁")
         } else {
 
             let winner = -480
@@ -81,19 +81,19 @@ window.onload = () => {
             let car4WinTop = topCar == parseInt(car4.style.marginTop);
 
             if ((car1Win) && (car1WinTop)) {
-                alert("DK WINNER!!!");
+                alert("DK WINNER!!! 🟤🏎");
                 location.reload(true);
             }
             if ((car2Win) && (car2WinTop)) {
-                alert("Mario WINNER!!!");
+                alert("Mario WINNER!!! 🔴🏎");
                 location.reload(true);
             }
             if ((car3Win) && (car3WinTop)) {
-                alert("Toad WINNER!!!");
+                alert("Toad WINNER!!! ⚪🏎");
                 location.reload(true);
             }
             if ((car4Win) && (car4WinTop)) {
-                alert("Yoshi WINNER!!!");
+                alert("Yoshi WINNER!!! 🟢🏎");
                 location.reload(true);
             }
         }
